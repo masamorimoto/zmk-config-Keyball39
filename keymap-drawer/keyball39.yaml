@@ -45,11 +45,11 @@ layers:
   - {t: '9', s: (}
   - +
   - {t: '-', s: _}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Alt+Gui+ $$mdi:arrow-left-bold$$
+  - Alt+Gui+ $$mdi:arrow-right-bold$$
+  - {t: 'Gui+ [', s: 'Gui+ {'}
+  - {t: 'Gui+ ]', s: 'Gui+ }'}
+  - Ctl+Alt+ $$mdi:arrow-up-bold$$
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -59,7 +59,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
+  - Ctl+Alt+ $$mdi:arrow-down-bold$$
   - '1'
   - '2'
   - '3'
@@ -69,7 +69,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&mkp MB4'
+  - Alt+Ctl+ $$mdi:arrow-right-bold$$
   - {t: '0', s: )}
   - {t: '0', s: )}
   - .
@@ -78,7 +78,7 @@ layers:
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - '&mkp MB5'
+  - Ctl+Alt+ $$mdi:arrow-left-bold$$
   SYM:
   - '!'
   - '@'
