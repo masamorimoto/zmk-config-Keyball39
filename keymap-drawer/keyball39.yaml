@@ -126,10 +126,10 @@ layers:
   - F4
   - '&bl BL_ON'
   - $$mdi:apple-finder$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - AC SEARCH
+  - HOME
+  - BACK
+  - FORWARD
   - F5
   - F6
   - F7
@@ -139,7 +139,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - REFRESH
   - F9
   - F10
   - F11
