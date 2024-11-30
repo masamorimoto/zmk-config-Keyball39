@@ -76,7 +76,7 @@ layers:
   - MUTE
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+Gui+ 4
   - {type: held}
   - Ctl+Alt+ $$mdi:arrow-right-bold$$
   SYM:
