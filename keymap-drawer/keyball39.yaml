@@ -33,9 +33,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: LANG HANGEUL, h: SYM}
+  - {t: LANGUAGE 2, h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: FUN}
-  - {t: LANGUAGE 2, h: SCROLL}
+  - {t: LANGUAGE 1, h: SCROLL}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: '-', h: '$$mdi:apple-keyboard-shift$$', s: _}
