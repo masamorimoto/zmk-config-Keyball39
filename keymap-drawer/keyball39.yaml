@@ -30,7 +30,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-caps$$', s: '?'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - {t: LANGUAGE 2, h: SYM}
@@ -45,11 +45,11 @@ layers:
   - {t: '9', s: (}
   - +
   - {t: '-', s: _}
-  - Alt+Gui+ $$mdi:arrow-left-bold$$
-  - Alt+Gui+ $$mdi:arrow-right-bold$$
-  - {t: 'Gui+ [', s: 'Gui+ {'}
-  - {t: 'Gui+ ]', s: 'Gui+ }'}
-  - Ctl+Alt+ $$mdi:arrow-up-bold$$
+  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - Alt+Gui+$$mdi:arrow-right-bold$$
+  - {t: 'Gui+[', s: 'Gui+{'}
+  - {t: 'Gui+]', s: 'Gui+}'}
+  - Ctl+Alt+$$mdi:arrow-up-bold$$
   - '4'
   - {t: '5', s: '%'}
   - '6'
@@ -59,7 +59,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
-  - Ctl+Alt+ $$mdi:arrow-down-bold$$
+  - Ctl+Alt+$$mdi:arrow-down-bold$$
   - '1'
   - '2'
   - '3'
@@ -69,16 +69,16 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - Alt+Ctl+ $$mdi:arrow-left-bold$$
+  - Alt+Ctl+$$mdi:arrow-left-bold$$
   - {t: '0', s: )}
   - {t: '0', s: )}
   - .
   - MUTE
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - Sft+Gui+ 4
+  - Sft+Gui+4
   - {type: held}
-  - Ctl+Alt+ $$mdi:arrow-right-bold$$
+  - Ctl+Alt+$$mdi:arrow-right-bold$$
   SYM:
   - '!'
   - '@'
@@ -94,7 +94,7 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
+  - {t: \, s: '|'}
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:arrow-up-bold$$
@@ -102,9 +102,9 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - _
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - \
+  - {t: /, s: '?'}
+  - {t: ;, s: ':'}
+  - .
   - PgDn
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -129,7 +129,7 @@ layers:
   - AC SEARCH
   - AC BACK
   - AC FORWARD
-  - Ctl+ $$mdi:arrow-up-bold$$
+  - Ctl+$$mdi:arrow-up-bold$$
   - F5
   - F6
   - F7
@@ -139,7 +139,7 @@ layers:
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - AC REFRESH
-  - Ctl+ $$mdi:arrow-down-bold$$
+  - Ctl+$$mdi:arrow-down-bold$$
   - F9
   - F10
   - F11
