@@ -8,11 +8,12 @@
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -66,10 +67,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp Q                        &kp W         &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A                        &kp S         &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L    &mt TAB SEMICOLON
-&kp Z                        &kp X         &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &mt CAPSLOCK SLASH
-&mt LEFT_SHIFT LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LANGUAGE_2  &lt 3 SPACE  &lt 5 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER                             &mt RIGHT_SHIFT MINUS
+&kp Q             &kp W         &kp E             &kp R             &kp T                                         &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D             &kp F             &kp G                                         &kp H        &kp J  &kp K      &kp L    &mt TAB SEMICOLON
+&kp Z             &kp X         &kp C             &kp V             &kp B                                         &kp N        &kp M  &kp COMMA  &kp DOT  &mt CAPSLOCK SLASH
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 2 LANGUAGE_2  &lt 3 SPACE  &lt 5 LANGUAGE_1  &kp BACKSPACE  &lt 1 ENTER                             &mt RIGHT_SHIFT MINUS
             >;
         };
 
