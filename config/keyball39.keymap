@@ -89,8 +89,8 @@
             bindings = <
 &kp EXCLAMATION   &kp AT_SIGN   &kp HASH          &kp DOLLAR         &kp PERCENT                    &kp CARET      &kp AMPERSAND   &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp MINUS         &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH                  &kp PAGE_UP    &mkp LCLK       &kp UP_ARROW    &mkp RCLK             &mkp MCLK
-&kp UNDER         &kp PLUS      &kp SLASH         &kp SEMICOLON      &kp APOS                       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &mkp MB4
-&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans             &trans         &trans  &trans  &trans                                                               &mkp MB5
+&kp UNDER         &kp PLUS      &kp SLASH         &kp SEMICOLON      &kp APOS                       &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW       &trans
+&kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans             &trans         &trans  &trans  &trans                                                               &kp RIGHT_SHIFT
             >;
         };
 
