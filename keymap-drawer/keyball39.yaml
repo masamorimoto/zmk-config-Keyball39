@@ -21,7 +21,7 @@ layers:
   - L
   - {t: ;, h: '$$mdi:keyboard-tab$$', s: ':'}
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
-  - X
+  - {t: X, h: GLOBE}
   - C
   - V
   - B
@@ -61,7 +61,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - Ctl+Alt+$$mdi:arrow-down-bold$$
   - '1'
-  - '2'
+  - {t: '2', h: GLOBE}
   - '3'
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
