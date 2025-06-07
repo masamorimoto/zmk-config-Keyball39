@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball39}
 layers:
   QWRT:
   - Q
@@ -27,8 +28,8 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - {t: /, h: '$$mdi:apple-keyboard-caps$$', s: '?'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
@@ -56,28 +57,28 @@ layers:
   - '*'
   - {t: /, s: '?'}
   - PgUp
-  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:mouse-right-click-outline$$
   - Ctl+Alt+$$mdi:arrow-down-bold$$
   - '1'
   - {t: '2', h: GLOBE}
   - '3'
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: \, s: '|'}
+  - $$mdi:arrow-up-bold$$
   - PgDn
-  - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: ',', s: <}
+  - .
   - Alt+Ctl+$$mdi:arrow-left-bold$$
   - {t: '0', s: )}
   - {t: '0', s: )}
   - .
-  - MUTE
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
   - Sft+Gui+4
-  - {type: held}
+  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
   - Ctl+Alt+$$mdi:arrow-right-bold$$
   SYM:
   - '!'
