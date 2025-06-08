@@ -71,14 +71,14 @@ layers:
   - {t: ',', s: <}
   - .
   - Alt+Ctl+$$mdi:arrow-left-bold$$
-  - {t: '0', s: )}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '0', s: )}
   - .
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - Sft+Gui+4
-  - {t: '$$mdi:apple-keyboard-shift$$', type: held}
+  - {type: held}
   - Ctl+Alt+$$mdi:arrow-right-bold$$
   SYM:
   - '!'
@@ -130,7 +130,7 @@ layers:
   - AC SEARCH
   - AC BACK
   - AC FORWARD
-  - Ctl+$$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
   - F7
@@ -139,8 +139,8 @@ layers:
   - MUTE
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - AC REFRESH
-  - Ctl+$$mdi:arrow-down-bold$$
+  - $$mdi:brightness-7$$
+  - Ctl+$$mdi:arrow-up-bold$$
   - F9
   - F10
   - F11
@@ -149,16 +149,16 @@ layers:
   - PREVIOUS
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-5$$
+  - Ctl+$$mdi:arrow-down-bold$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {type: held}
   - {h: '5', s: '$$mdi:bluetooth-connect$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:arrow-left-bold$$
+  - Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
   - {t: '1', s: '!'}
