@@ -59,7 +59,7 @@ layers:
   - PgUp
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
-  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:arrow-right-bold$$
   - Ctl+Alt+$$mdi:arrow-down-bold$$
   - '1'
   - {t: '2', h: GLOBE}
