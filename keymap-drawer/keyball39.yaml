@@ -25,7 +25,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: MOUSE}
   - N
   - M
   - {t: ',', s: <}
@@ -35,8 +35,8 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-command$$', h: NUM}
-  - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:backspace$$', h: SYM}
+  - {t: '$$mdi:keyboard-space$$', h: SYM}
+  - {t: '$$mdi:backspace$$', h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: FUN}
   - {t: LANGUAGE 1, h: '$$mdi:apple-keyboard-command$$'}
   - MUTE
@@ -75,8 +75,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: SNIPE, type: held}
+  - {type: held}
+  - SNIPE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -115,8 +115,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - .
   - '0'
   - {t: '$$mdi:transfer$$', type: trans}
@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -275,7 +275,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
