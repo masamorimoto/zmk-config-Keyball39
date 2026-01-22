@@ -133,3 +133,8 @@
         };
     };
 };
+
+/* トラックボールを動かすとレイヤー4（MOUSE）へ移動 */
+&trackball {
+    automouse-layer = <4>;
+};
